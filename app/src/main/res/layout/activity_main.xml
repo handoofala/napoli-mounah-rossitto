@@ -1,0 +1,33 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@drawable/ba">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrons dans l'univers de la biere"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:background="#BD8D46"
+        android:id="@+id/Button1"
+        android:layout_marginBottom="145dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="L'histoire de la biere"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:background="#BD8D46"
+        android:id="@+id/ButtonE"
+        android:layout_alignTop="@+id/Button1"
+        android:layout_alignStart="@+id/Button1"
+        android:layout_marginTop="56dp" />
+
+
+</RelativeLayout>

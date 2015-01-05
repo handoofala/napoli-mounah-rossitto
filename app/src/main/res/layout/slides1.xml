@@ -1,0 +1,30 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4"
+    android:orientation="horizontal">
+
+    <TextView
+        android:lineSpacingMultiplier="1.4"
+        android:layout_width="match_parent"
+        android:layout_height="737dp"
+        android:gravity="left"
+
+        android:id="@+id/textView"
+
+android:text="UN PEU D'HISTOIRE (Vous pouvez slider) :
+
+C'est Rome qui introduisit la bière dans la péninsule ibérique. La bière est alors fabriquée à partir d'orge et de froment, aromatisée avec des épices (gingembre) ou des plantes amères (gentiane, coriandre) et du miel. La cervoise était très populaire du fait que l'eau était souvent peu potable.Jusqu'au IXème siècle, la cervoise reste une production familiale. Avec Charlemagne, chaque village développe sa brasserie. Puis ce sont dans les monastères que les innovations techniques se développent. Au XVème siècle, l'usage du houblon se répand pour supplanter les épices et plantes amères. La technique de la fermentation basse(à basse température) apparait. Le houblon assure une bonne conservation de la bière. Cela va favoriser son transport et étendre son commerce. La bière et également plus légère et a un meilleur goût.
+Au XIXème siècles, les découvertes scientifiques font faire beaucoup de progrès à la bière. Il est notamment possible de faire du froid qui est utilisé pour les bières de fermentation basse, bière de type Pils. Ces bières ont alors un essor fulgurant.
+Régulièrement, les brasseurs avaient des problèmes lors de la fermentation, sans comprendre pourquoi. Louis Pasteur s'intéressa au problème. Il mit ainsi en évidence les mécanismes de la fermentation alcoolique et la nécessité de protéger la bière de toute contamination bactériologique. Il prône une hygiène rigoureuse. Il met aussi en place la pasteurisation qui assure une meilleure conservation de la bière."
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center_vertical" />
+
+
+</LinearLayout>
+</ScrollView>

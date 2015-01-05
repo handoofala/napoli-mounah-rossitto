@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alexandre.alex" >
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/biere"
+        android:label="L'histoire de la bière"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="L'histoire de la bière" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Conn"
+            android:label="Information sur la bière"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".Pbiere"
+            android:label="Notre collection de bières"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".SliderActivity"
+
+            />
+    </application>
+
+</manifest>
